@@ -10,7 +10,7 @@ module "vpc1" {
    # VPC
 
   vpc_cidr_block            = "10.0.0.0/16"
-  vpc_name                  = "testvpc"
+  vpc_name                  = "manu@vpc"
   enable_dns_hostnames      = "true"
 
   # Subnets
