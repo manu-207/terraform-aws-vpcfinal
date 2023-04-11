@@ -1,10 +1,11 @@
 provider "aws" {
     region = "us-west-1"
 }
-
 module "vpc1" {
-  source  = "app.terraform.io/aws-glue/vpc1/aws"
+  source  = "app.terraform.io/manu7/vpc1/aws"
   version = "1.0.0"
+  # insert required variables here
+
   # insert required variables here
   
    # VPC
